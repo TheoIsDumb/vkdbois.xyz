@@ -10,5 +10,10 @@
     svg {
         width: 3rem;
         animation: anim 3s ease infinite;
+        transition: transform 0.5s;
+    }
+
+    svg:hover {
+        transform: rotate(90deg);
     }
 </style>
