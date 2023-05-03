@@ -22,7 +22,7 @@
     }
 </style>
 
-<a href={link}>
+<a href={link} target="_blank" rel="noopener noreferrer">
     <article>
         <h1>{title}</h1>
         <p>{desc}</p>

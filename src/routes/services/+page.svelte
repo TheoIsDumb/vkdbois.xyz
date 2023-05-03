@@ -4,14 +4,6 @@
     import { fly } from 'svelte/transition';
 </script>
 
-<style>
-    .inner-container {
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-    }
-</style>
-
 <div class="inner-container" transition:fly={{ y: -50 }}>
     <Title/>
 

@@ -7,16 +7,7 @@
     ]
 </script>
 
-<style>
-    .inner-container {
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-</style>
-
-<div class="inner-container" transition:fly={{ y: -50 }}>
+<div class="inner-container flex-justify-content" transition:fly={{ y: -50 }}>
     <h1>info.</h1>
 
     {#each details as detail}

@@ -3,14 +3,6 @@
 </script>
 
 <style>
-    .inner-container {
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
     a {
         color: white;
         background-color: #1c1b1b;
@@ -22,7 +14,7 @@
     }
 </style>
 
-<div class="inner-container" transition:fly={{ y: -50 }}>
+<div class="inner-container flex-justify-content flex-align-items" transition:fly={{ y: -50 }}>
     <h1 transition:fly={{ y: -50, delay: 300 }}>home.</h1>
 
     <a class="center" href="/services">services</a>

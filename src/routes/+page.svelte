@@ -7,11 +7,6 @@
 
 <style>
     .inner-container {
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
         gap: 1rem;
     }
 
@@ -37,7 +32,7 @@
     }
 </style>
 
-<div class="inner-container" transition:fly={{ y: -50 }}>
+<div class="inner-container flex-justify-content flex-align-items" transition:fly={{ y: -50 }}>
     <div class="box">
         <Logo/>
         <p>
