@@ -1,5 +1,7 @@
 <script>
 	import { page } from '$app/stores';
+  let status = $page.status;
+  let errormsg = $page.error.message;
 </script>
 
 <style>
@@ -30,7 +32,7 @@
     }
   </style>
 
-<div class="center" style="height: 100vh; flex-direction: column">
-  <h1>{$page.status}</h1>
-  <p>{$page.error.message}</p>
+<div class="inner-container flex-justify-content flex-align-items">
+  <h1>{status}</h1>
+  <p>{errormsg.toUpperCase()}</p>
 </div>
