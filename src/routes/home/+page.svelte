@@ -2,7 +2,7 @@
     import { fly } from 'svelte/transition';
     import Head from '../components/head.svelte';
 
-    const paths = ["services", "info", "changelog"];
+    const paths = ["services", "info", "about", "changelog"];
 </script>
 
 <style>

@@ -1,5 +1,7 @@
 <script>
 	import { page } from '$app/stores';
+  import Head from './components/head.svelte';
+
   let status = $page.status;
   let errormsg = $page.error.message;
 </script>
@@ -32,7 +34,9 @@
     }
   </style>
 
+  <Head />
+
 <div class="inner-container flex-justify-content flex-align-items">
   <h1>{status}</h1>
-  <p>{errormsg.toUpperCase()}</p>
+  <p>{errormsg}</p>
 </div>
