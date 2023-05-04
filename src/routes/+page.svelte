@@ -2,6 +2,7 @@
     import Logo from "./components/logo.svelte";
     import Arrow from "./components/arrow.svelte";
     import Sveltelogo from "./components/sveltelogo.svelte";
+    import Head from "./components/head.svelte";
     import { fly } from 'svelte/transition';
 </script>
 
@@ -31,6 +32,8 @@
         margin: 0;
     }
 </style>
+
+<Head/>
 
 <div class="inner-container flex-justify-content flex-align-items"
 transition:fly={{ y: 50 }}>

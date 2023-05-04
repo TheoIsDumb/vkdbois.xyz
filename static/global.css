@@ -50,6 +50,7 @@ main.container {
   height: 100dvh;
   display: flex;
   flex-direction: column;
+  padding: 1rem 0;
 }
 
 .flex-justify-content {

@@ -1,5 +1,8 @@
 <script>
     import { fly } from 'svelte/transition';
+    import Head from '../components/head.svelte';
+
+    const paths = ["services", "info", "changelog"];
 </script>
 
 <style>
@@ -20,10 +23,12 @@
     }
 </style>
 
+<Head/>
+
 <div class="inner-container flex-justify-content flex-align-items" transition:fly={{ y: -50 }}>
     <h1 transition:fly={{ y: -50, delay: 300 }}>home.</h1>
 
-    <a class="center" href="/services">services</a>
-    <a class="center" href="/info">info</a>
-    <a class="center" href="/about">about</a>
+    {#each paths as path}
+        <a class="center" href="{'/'+path}">{path}</a>
+    {/each}
 </div>
