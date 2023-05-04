@@ -7,6 +7,6 @@
     {#if title === "/"}
         <title>vkdbois.xyz</title>
     {:else}
-        <title>{title} | vkdbois.xyz</title>
+        <title>{title.replaceAll('/', '')} | vkdbois.xyz</title>
     {/if}
 </svelte:head>
