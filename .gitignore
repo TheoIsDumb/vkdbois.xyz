@@ -9,3 +9,9 @@ node_modules
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 todo.txt
+.prettierignore
+.prettierrc
+.npmrc
+.eslintrc.cjs
+.eslintignore
+.gitignore
