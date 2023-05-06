@@ -1,7 +1,7 @@
 <script>
     import Logo from "./components/logo.svelte";
     import Arrow from "./components/arrow.svelte";
-    import Sveltelogo from "./components/sveltelogo.svelte";
+    import Sveltelogosourcecode from "./components/sveltelogosourcecode.svelte";
     import Head from "./components/head.svelte";
     import { fly } from 'svelte/transition';
 </script>
@@ -57,5 +57,5 @@ transition:fly={{ y: 50 }}>
         <a href="https://nsole.vkdbois.xyz" target="_blank" rel="noopener noreferrer">consoletree</a>
         and theooo
     </span>
-    <Sveltelogo/>
+    <Sveltelogosourcecode/>
 </div>
