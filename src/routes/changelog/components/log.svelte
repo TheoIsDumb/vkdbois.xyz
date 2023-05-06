@@ -4,7 +4,7 @@
 
 <style>
     details {
-        border: 2px solid #a5a5a5;
+        border: 3px solid #a5a5a5;
         padding: 1rem;
         border-radius: 0.5rem;
         margin-bottom: 0.5rem;

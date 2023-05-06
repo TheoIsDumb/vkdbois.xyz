@@ -5,6 +5,12 @@
 
     const logs = [
         {
+            date: '2023 May 07',
+            items: [
+                'Added calorieCalc'
+            ]
+        },
+        {
             date: '2023 May 04',
             items: [
                 'Code maintenance - #each',

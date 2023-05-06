@@ -22,6 +22,12 @@
             desc: "A lightweight code hosting solution written in Go.",
             link: "https://git.vkdbois.xyz",
             img: "/icons/gitea.svg"
+        },
+        {
+            title: "calorieCalc",
+            desc: "For the gymbros.",
+            link: "https://calorie.vkdbois.xyz",
+            img: "/icons/caloriecalc.svg"
         }
     ]
 </script>
