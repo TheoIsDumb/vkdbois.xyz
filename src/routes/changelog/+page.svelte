@@ -1,11 +1,19 @@
 <script>
     import { fly } from 'svelte/transition';
-    import Head from '../components/head.svelte';
+    import Head from '$lib/components/head.svelte';
     import Log from './components/log.svelte';
 
     const logs = [
         {
             date: '2023 May 07',
+            items: [
+                'TIL $lib aka src/lib/',
+                'removed info',
+                'updated about (previously info) layout'
+            ]
+        },
+        {
+            date: '2023 May 06',
             items: [
                 'Added calorieCalc'
             ]
@@ -35,7 +43,7 @@
 <div class="inner-container" transition:fly={{ y: -50 }}>
     <h1>changelog.</h1>
 
-    <p><b>WARNING:</b> noob code.</p>
+    <p><b>WARNING:</b> noob code hehe</p>
 
     {#each logs as log}
         <Log {log}/>

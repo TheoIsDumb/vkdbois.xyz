@@ -10,7 +10,7 @@
         padding: 0.4rem 1rem;
         border-radius: 0.2rem;
         text-decoration: none;
-        transition: box-shadow 1s;
+        transition: box-shadow 0.5s;
     }
 
     a:hover {

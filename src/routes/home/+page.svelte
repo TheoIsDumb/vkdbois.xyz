@@ -1,8 +1,8 @@
 <script>
     import { fly } from 'svelte/transition';
-    import Head from '../components/head.svelte';
+    import Head from '$lib/components/head.svelte';
 
-    const paths = ["services", "info", "about", "changelog"];
+    const paths = ["services", "changelog", "about"];
 </script>
 
 <style>

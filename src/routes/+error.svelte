@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-  import Head from './components/head.svelte';
+  import Head from '$lib/components/head.svelte';
 
   let status = $page.status;
   let errormsg = $page.error.message;

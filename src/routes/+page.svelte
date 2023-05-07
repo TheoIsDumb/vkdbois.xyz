@@ -1,8 +1,8 @@
 <script>
-    import Logo from "./components/logo.svelte";
-    import Arrow from "./components/arrow.svelte";
-    import Sveltelogosourcecode from "./components/sveltelogosourcecode.svelte";
-    import Head from "./components/head.svelte";
+    import Logo from "$lib/components/logo.svelte";
+    import Arrow from "$lib/components/arrow.svelte";
+    import Sveltelogosourcecode from "$lib/components/sveltelogosourcecode.svelte";
+    import Head from "$lib/components/head.svelte";
     import { fly } from 'svelte/transition';
 </script>
 

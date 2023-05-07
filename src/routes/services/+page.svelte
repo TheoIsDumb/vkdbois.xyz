@@ -1,7 +1,7 @@
 <script>
     import Title from "./components/title.svelte";
     import Card from "./components/card.svelte";
-    import Head from "../components/head.svelte";
+    import Head from "$lib/components/head.svelte";
     import { fly } from 'svelte/transition';
 
     const servicesData = [
