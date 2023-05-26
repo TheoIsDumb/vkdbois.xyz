@@ -15,25 +15,32 @@
         border: 3px solid rgb(95, 95, 95);
         padding: 1rem;
         transition: transform 0.5s;
-        height: 15rem;
+        height: 12rem;
     }
     
     a:hover {
-        transform: scale(1.05);
+        transform: scale(0.95);
     }
 
-    span {
+    span.title {
         font-weight: bold;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+    }
+
+    span.desc {
+        font-size: 0.8rem;
+        text-align: center;
     }
     
     img {
-        height: 50%;
+        height: 40%;
     }
 </style>
 
-<a class="center" href={link} target="_blank" rel="noopener noreferrer">
+<a
+    class="inner-container flex-justify-content flex-align-items"
+    href={link} target="_blank" rel="noopener noreferrer">
         <img src={img} alt={title}/>
-        <span>{title}</span>
-        {desc}
+        <span class="title">{title}</span>
+        <span class="desc">{desc}</span>
 </a>

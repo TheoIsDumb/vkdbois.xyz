@@ -1,8 +1,8 @@
 <script>
     import Logo from "$lib/components/logo.svelte";
     import Arrow from "$lib/components/arrow.svelte";
-    import Sveltelogosourcecode from "$lib/components/sveltelogosourcecode.svelte";
-    import Head from "$lib/components/head.svelte";
+    import Button from "$lib/components/button.svelte";
+    import Svelteicon from "$lib/components/svelteicon.svelte";
     import { fly } from 'svelte/transition';
 </script>
 
@@ -10,52 +10,33 @@
     .inner-container {
         gap: 1rem;
     }
-
-    .box {
-        display: flex;
-        flex-direction: row;
-        width: 96%;
-        max-width: 50vh;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
+    span#sub {
+        font-weight: 600;
+        font-size: 1rem;
     }
-
-    .box p {
-        color: #fff;
-        font-size: 3rem;
-        font-weight: 900;
-        line-height: 2.5rem;
-        border-left: 2px solid white;
-        padding-left: 1rem;
-        letter-spacing: -1px;
-        margin: 0;
+    a {
+        color: dodgerblue;
     }
 </style>
 
-<Head/>
-
 <div class="inner-container flex-justify-content flex-align-items"
-transition:fly={{ y: 50 }}>
-    <div class="box">
+    in:fly={{ y: 50 }}>
         <Logo/>
-        <p>
-            libre &<br>
-            private<br>
-            services<br>
-            for<br>
-            everyone.
-        </p>
-    </div>
     
+    <span id="sub">
+        where
+        <a href="https://nsole.vkdbois.xyz" target="_blank" rel="noopener noreferrer">consoletree</a>
+        and theooo reside.
+    </span>
+
     <a href="/home">
         <Arrow/>
     </a>
 
-    <span>
-        made with ❤️ by
-        <a href="https://nsole.vkdbois.xyz" target="_blank" rel="noopener noreferrer">consoletree</a>
-        and theooo
+    <span style:display=flex class="flex-align-items" style:font-size=0.8rem>
+        made with ❤️ in
+        <Svelteicon/>
     </span>
-    <Sveltelogosourcecode/>
+
+    <Button/>
 </div>

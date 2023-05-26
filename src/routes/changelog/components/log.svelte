@@ -9,19 +9,19 @@
         border-radius: 0.5rem;
         margin-bottom: 0.5rem;
     }
-
+    summary {
+        font-weight: bold;
+    }
     ul, li {
         margin: 0;
     }
-
     li {
-        margin-left: 1rem;
         list-style: disc;
     }
 </style>
 
 <details open>
-    <summary style="font-weight: bold">{log.date}</summary>
+    <summary>{log.date}</summary>
         <ul>
     {#each log.items as item}
             <li>{item}</li>
