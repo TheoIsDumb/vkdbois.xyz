@@ -25,8 +25,8 @@
   src: url('/fonts/inter-tight-v2-latin-900.woff2') format('woff2');
 }
 
-:root {
-  --font-family: "Inter Tight", sans-serif;
+* {
+  font-family: "Inter Tight", sans-serif;
 }
 
 body {

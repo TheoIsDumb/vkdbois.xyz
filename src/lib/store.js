@@ -10,6 +10,12 @@ export let servicesData = readable([
         img: "/icons/gitea.svg"
     },
     {
+        title: "TheoOS",
+        desc: "An OS-like thingy powered by SvelteKit",
+        link: "https://os.vkdbois.xyz",
+        img: "/icons/os.svg"
+    },
+    {
         title: "calorieCalc",
         desc: "For the gymbros.",
         link: "https://calorie.vkdbois.xyz",
