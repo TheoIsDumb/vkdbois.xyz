@@ -16,6 +16,7 @@
         padding: 1rem;
         transition: transform 0.5s;
         height: 12rem;
+        display: flex;
     }
     
     a:hover {
@@ -38,7 +39,7 @@
 </style>
 
 <a
-    class="inner-container flex-justify-content flex-align-items"
+    class="flex-justify-content flex-align-items"
     href={link} target="_blank" rel="noopener noreferrer">
         <img src={img} alt={title}/>
         <span class="title">{title}</span>

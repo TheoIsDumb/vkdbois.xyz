@@ -1,6 +1,5 @@
 <script>
 	import { page } from '$app/stores';
-  import Head from '$lib/components/head.svelte';
 
   let status = $page.status;
   let errormsg = $page.error.message;
@@ -33,8 +32,6 @@
       }
     }
   </style>
-
-  <Head />
 
 <div class="inner-container flex-justify-content flex-align-items">
   <h1>{status}</h1>

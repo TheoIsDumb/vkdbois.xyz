@@ -1,6 +1,5 @@
 <script>
     import { fly } from 'svelte/transition';
-    import Head from '$lib/components/head.svelte';
     import { paths } from '$lib/store.js';
 </script>
 
@@ -22,11 +21,8 @@
     }
 </style>
 
-<Head/>
-
 <div
-    class="inner-container flex-justify-content flex-align-items"
-    in:fly={{ y: -50 }}>
+    class="inner-container flex-justify-content flex-align-items">
     <h1 in:fly={{ y: -50, delay: 300 }}>home.</h1>
 
     {#each $paths as path}

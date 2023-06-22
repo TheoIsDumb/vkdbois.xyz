@@ -1,6 +1,4 @@
 <script>
-    import { fly } from 'svelte/transition';
-    import Head from '$lib/components/head.svelte';
     import { about } from '$lib/details.js';
 </script>
 
@@ -15,9 +13,7 @@
     }
 </style>
 
-<Head/>
-
-<div class="inner-container flex-justify-content" in:fly={{ y: -50 }}>
+<div class="inner-container flex-justify-content">
     <h1>about.</h1>
 
     <table>

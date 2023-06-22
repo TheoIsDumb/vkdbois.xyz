@@ -1,17 +1,22 @@
 <script>
-    import { page } from '$app/stores';
-    let title = $page.url.pathname;
-    let desc = $page.data.desc;
+    import { fly } from 'svelte/transition';
+    import '$lib/styles/app.css';
+
+    export let data;
 </script>
 
 <svelte:head>
-    {#if title === "/"}
-        <title>vkdbois.xyz</title>
-    {:else}
-        <title>{title.replaceAll('/', '')} | vkdbois.xyz</title>
-    {/if}
-
-    <meta name="description" content={desc}/>
+    {#key data.url}
+        {#if data.url === "/"}
+            <title>vkdbois.xyz</title>
+        {:else}
+            <title>{data.url.replaceAll('/', '')} | vkdbois.xyz</title>
+        {/if}
+    {/key}
 </svelte:head>
 
-<slot/>
+{#key data}
+<div in:fly={{ x: 50, duration: 500 }} out:fly={{ x: -50 }}>
+    <slot />
+  </div>
+{/key}

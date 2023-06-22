@@ -3,7 +3,6 @@
     import Arrow from "$lib/components/arrow.svelte";
     import Button from "$lib/components/button.svelte";
     import Svelteicon from "$lib/components/svelteicon.svelte";
-    import { fly } from 'svelte/transition';
 </script>
 
 <style>
@@ -19,8 +18,7 @@
     }
 </style>
 
-<div class="inner-container flex-justify-content flex-align-items"
-    in:fly={{ y: 50 }}>
+<div class="inner-container flex-justify-content flex-align-items">
         <Logo/>
     
     <span id="sub">

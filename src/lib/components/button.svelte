@@ -1,4 +1,5 @@
-<a href="https://git.vkdbois.xyz/theo/homepage" target="_blank" rel="noopener noreferrer">
+<a href="https://git.vkdbois.xyz/theo/homepage"
+    target="_blank" rel="noopener noreferrer">
     source code
 </a>
 

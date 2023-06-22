@@ -15,3 +15,4 @@ todo.txt
 .eslintrc.cjs
 .eslintignore
 .gitignore
+pnpm-lock.yaml
