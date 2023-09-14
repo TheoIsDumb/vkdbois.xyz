@@ -1,15 +1,15 @@
-export let servicesData = [
-    {
-        title: "Gitea",
-        desc: "Code hosting for vkdbois repos.",
-        link: "https://git.vkdbois.xyz",
-        img: "/icons/gitea.svg"
-    },
+export let services = [
     {
         title: "TheoOS",
         desc: "An OS-like thingy powered by SvelteKit",
         link: "https://os.vkdbois.xyz",
         img: "/icons/os.svg"
+    },
+    {
+        title: "Gitea",
+        desc: "Code hosting for vkdbois repos.",
+        link: "https://git.vkdbois.xyz",
+        img: "/icons/gitea.svg"
     },
     {
         title: "calorieCalc",
