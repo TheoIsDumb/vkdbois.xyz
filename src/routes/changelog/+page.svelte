@@ -8,7 +8,7 @@
 
     <p><b>WARNING:</b> noob code hehe</p>
 
-    {#each $logs as log}
+    {#each logs as log}
         <Log {log}/>
     {/each}
 </div>

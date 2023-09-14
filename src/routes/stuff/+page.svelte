@@ -18,8 +18,8 @@
 <Title/>
 
     <div class="services">
-            {#each $servicesData as data}
+            {#each servicesData as data}
                 <Card {...data}/>
-                {/each}
+            {/each}
     </div>
 </div>

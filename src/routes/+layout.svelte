@@ -1,6 +1,7 @@
 <script>
-    import { fly } from 'svelte/transition';
-    import '$lib/styles/app.css';
+    import "../app.postcss"
+    import { fly } from 'svelte/transition'
+    import '$lib/styles/app.css'
 
     export let data;
 </script>
@@ -17,6 +18,6 @@
 
 {#key data}
 <div in:fly={{ x: 50, duration: 500 }} out:fly={{ x: -50 }}>
-    <slot />
+    <slot></slot>
   </div>
 {/key}
