@@ -1,8 +1,6 @@
-import { readable } from "svelte/store";
+export const paths = ["stuff", "changelog", "about"]
 
-export const paths = readable(["stuff", "changelog", "about"]);
-
-export let servicesData = readable([
+export let servicesData = [
     {
         title: "Gitea",
         desc: "Code hosting for vkdbois repos.",
@@ -27,4 +25,4 @@ export let servicesData = readable([
         link: "https://tz.vkdbois.xyz",
         img: "/icons/tz.webp"
     }
-]);
+]
