@@ -1,5 +1,3 @@
-export const paths = ["stuff", "changelog", "about"]
-
 export let servicesData = [
     {
         title: "Gitea",
