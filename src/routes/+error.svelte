@@ -27,7 +27,7 @@
         transform: rotate3d(0, 0, 0, 0deg);
       }
     }
-  </style>
+</style>
 
 <div class="h-[100dvh] flex flex-col justify-center items-center">
   <h1 class="font-bold text-8xl">{status}</h1>

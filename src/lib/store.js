@@ -1,9 +1,21 @@
 export let services = [
     {
+        title: "Raga",
+        desc: "A JioSaavn frontend powered by SvelteKit.",
+        link: "https://raga.vkdbois.xyz",
+        img: "/icons/raga.svg"
+    },
+    {
         title: "TheoOS",
-        desc: "An OS-like thingy powered by SvelteKit",
+        desc: "An OS-like thingy powered by SvelteKit.",
         link: "https://os.vkdbois.xyz",
         img: "/icons/os.svg"
+    },
+    {
+        title: "meh.",
+        desc: "An endless loop of meh.",
+        link: "https://meh-two.vercel.app",
+        img: "/icons/meh.svg"
     },
     {
         title: "Gitea",
@@ -19,7 +31,7 @@ export let services = [
     },
     {
         title: "tz.svelte",
-        desc: "sift through timezones.",
+        desc: "Sift through timezones.",
         link: "https://tz.vkdbois.xyz",
         img: "/icons/tz.webp"
     }

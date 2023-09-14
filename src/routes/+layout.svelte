@@ -1,6 +1,6 @@
 <script>
     import "../app.postcss"
-    import { fly } from 'svelte/transition'
+    import { fade } from 'svelte/transition'
     import '$lib/styles/app.css'
 
     export let data
@@ -17,7 +17,7 @@
 </svelte:head>
 
 {#key data}
-<div class="inner-container" in:fly={{ x: 50, duration: 500 }} out:fly={{ x: -50 }}>
+<div class="inner-container" in:fade={{ duration: 500 }} out:fade>
     <slot />
   </div>
 {/key}
