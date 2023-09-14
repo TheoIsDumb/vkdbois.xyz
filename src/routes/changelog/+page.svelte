@@ -4,7 +4,7 @@
 
 <h1 class="font-bold text-3xl mb-2">changelog.</h1>
 
-<p><b>WARNING:</b> noob code hehe</p>
+<p class="mb-2"><b>WARNING:</b> noob code hehe</p>
 
 {#each logs as log}
     <details class="p-4 mb-2 rounded border-2 border-gray-300" open>

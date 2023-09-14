@@ -1,15 +1,29 @@
 export const logs = [
     {
+        date: '2023 September 14',
+        items: [
+            'removed @sveltejs/adapter-static',
+            'svelte-add tailwindcss',
+            'removed /home, /stuff, /about',
+            'removed components arrow, button, log',
+            'frontpage UI changes',
+            'app.css: removed unnecessary stuff',
+            'idk why i used stores everywhere (i am dumb)',
+            "added theo's github",
+            'added raga and meh'
+        ]
+    },
+    {
         date: '2023 May 26',
         items: [
-            'Started using stores - readable tho',
+            'started using stores - readable tho',
             'replaced transition:fly with in:fly - turns out it was the reason everything was slow xD',
-            'removed PicoCSS',
-            'simplified CSS further',
-            'removed Prettier and all that stuff - idky I added it',
+            'removed picocss',
+            'simplified css further',
+            'removed prettier and all that stuff - idky i added it',
             'changed main page design',
             's/services/stuff/',
-            'Took down Libreddit and Piped'
+            'took down libreddit and piped'
         ]
     },
     {
@@ -23,24 +37,24 @@ export const logs = [
     {
         date: '2023 May 06',
         items: [
-            'Added calorieCalc'
+            'added calorieCalc'
         ]
     },
     {
         date: '2023 May 04',
         items: [
-            'Code maintenance - #each',
+            'code maintenance - #each',
             'svelte:head',
-            'Added Changelog'
+            'cdded changelog'
         ]
     },
     {
         date: '2023 May 03',
         items: [
-            'Services Grid',
-            'Arrow glow animation',
-            '100vh => 100dvh (TIL dvh, all my life problems are solved /s)',
-            'Fixed inner-container code cruft'
+            'services grid',
+            'arrow glow animation',
+            '100vh => 100dvh (TIL dvh, all my life problems are solved /j)',
+            'fixed inner-container code cruft'
         ]
     }
 ]
