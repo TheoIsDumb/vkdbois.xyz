@@ -1,6 +1,4 @@
-import { readable } from "svelte/store"
-
-export const logs = readable([
+export const logs = [
     {
         date: '2023 May 26',
         items: [
@@ -45,12 +43,4 @@ export const logs = readable([
             'Fixed inner-container code cruft'
         ]
     }
-]);
-
-export const about = readable([
-    ["OS", "Debian GNU/Linux 11 (bullseye) x86_64"],
-    ["CPU", "AMD EPYC 7282 (4) @ 2.794GHz"],
-    ["RAM", "7956MiB"],
-    ["Disk Space", "200G"],
-    ["Framework", "SvelteKit"]
-]);
+]
