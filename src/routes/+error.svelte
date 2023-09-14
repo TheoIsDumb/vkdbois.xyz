@@ -29,7 +29,8 @@
     }
 </style>
 
-<div class="h-[100dvh] flex flex-col justify-center items-center">
+<div class="h-[calc(100dvh-2rem)] flex flex-col justify-center items-center">
   <h1 class="font-bold text-8xl">{status}</h1>
-  <p>{errormsg}</p>
+
+  <a href="/" class="mt-12 bg-gray-950 hover:bg-gray-900 text-blue-600 px-4 py-2 rounded">Go Home</a>
 </div>

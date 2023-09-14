@@ -42,13 +42,13 @@
         </div>
 
         <div class="btns flex gap-2">
-            <a class="bg-white text-blue-600 px-4 py-1 rounded"
+            <a class="bg-gray-950 hover:bg-gray-900 text-blue-600 px-4 py-1 rounded"
             href="https://github.com/theoisdumb/vkdbois.xyz"
                 target="_blank" rel="noopener noreferrer">
                 source code
             </a>
 
-            <a class="bg-white text-blue-600 px-4 py-1 rounded"
+            <a class="bg-gray-950 hover:bg-gray-900 text-blue-600 px-4 py-1 rounded"
             href="/changelog">
                 changelog
             </a>
