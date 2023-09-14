@@ -3,7 +3,7 @@
     import { fly } from 'svelte/transition'
     import '$lib/styles/app.css'
 
-    export let data;
+    export let data
 </script>
 
 <svelte:head>
@@ -17,7 +17,7 @@
 </svelte:head>
 
 {#key data}
-<div in:fly={{ x: 50, duration: 500 }} out:fly={{ x: -50 }}>
-    <slot></slot>
+<div class="inner-container" in:fly={{ x: 50, duration: 500 }} out:fly={{ x: -50 }}>
+    <slot />
   </div>
 {/key}

@@ -1,16 +1,12 @@
 <script>
-	import { page } from '$app/stores';
+	import { page } from '$app/stores'
 
-  let status = $page.status;
-  let errormsg = $page.error.message;
+  let status = $page.status
+  let errormsg = $page.error.message
 </script>
 
 <style>
     h1 {
-      font-size: 5rem;
-      line-height: 0.8;
-      margin: 0;
-      margin-bottom: 3rem;
       animation: anim 4s ease-out infinite;
     }
 
@@ -33,7 +29,7 @@
     }
   </style>
 
-<div class="inner-container flex-justify-content flex-align-items">
-  <h1>{status}</h1>
+<div class="h-[100dvh] flex flex-col justify-center items-center">
+  <h1 class="font-bold text-8xl">{status}</h1>
   <p>{errormsg}</p>
 </div>

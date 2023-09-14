@@ -40,21 +40,5 @@ body {
   width: 96%;
   max-width: 768px;
   margin: 0 auto;
-  height: 100dvh;
-  display: flex;
-  flex-direction: column;
-  scrollbar-width: thin;
   padding: 0 0.8rem;
-}
-
-.flex {
-  display: flex;
-}
-
-.flex-justify-content {
-  justify-content: center;
-}
-
-.flex-align-items {
-  align-items: center;
 }

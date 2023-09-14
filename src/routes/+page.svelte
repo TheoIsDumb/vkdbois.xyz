@@ -1,40 +1,25 @@
 <script>
     import Logo from "$lib/components/logo.svelte";
-    import Arrow from "$lib/components/arrow.svelte";
-    import Button from "$lib/components/button.svelte";
     import Svelteicon from "$lib/components/svelteicon.svelte";
 </script>
 
-<style>
-    .inner-container {
-        gap: 1rem;
-    }
-    span#sub {
-        font-weight: 600;
-        font-size: 1rem;
-    }
-    a {
-        color: dodgerblue;
-    }
-</style>
-
-<div class="inner-container flex-justify-content flex-align-items">
-        <Logo/>
+<div class="flex flex-col items-center mt-4 gap-2">
+    <Logo/>
     
-    <span id="sub">
+    <span class="font-semibold text-center">
         where
-        <a href="https://nsole.vkdbois.xyz" target="_blank" rel="noopener noreferrer">consoletree</a>
+        <a class="text-blue-500 underline"
+        href="https://nsole.vkdbois.xyz" target="_blank" rel="noopener noreferrer">consoletree</a>
         and theooo reside.
     </span>
 
-    <a href="/home">
-        <Arrow/>
+    <div class="flex items-center">
+        made with ❤️ in <Svelteicon/>
+    </div>
+
+    <a class="bg-white text-blue-600 px-4 py-1 rounded"
+    href="https://git.vkdbois.xyz/theo/homepage"
+        target="_blank" rel="noopener noreferrer">
+        source code
     </a>
-
-    <span style:display=flex class="flex-align-items" style:font-size=0.8rem>
-        made with ❤️ in
-        <Svelteicon/>
-    </span>
-
-    <Button/>
 </div>
